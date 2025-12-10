@@ -1,0 +1,20 @@
+CREATE DATABASE Elementry ;
+
+USE Elementry;
+
+CREATE TABLE Boys (
+id INT NOT NULL,
+name VARCHAR(10)
+);
+INSERT INTO Boys VALUES (1, "Sreenu");
+INSERT INTO Boys VALUES (2, "Venu");
+INSERT INTO Boys VALUES (3, "Mani");
+INSERT INTO Boys VALUES (4, "Sridhar");
+INSERT INTO Boys VALUES (5, "Durga");
+
+ SELECT * FROM Boys;
+ SET SQL_SAFE_UPDATES = 0;
+ 
+ SELECT * FROM Boys ORDER BY id;
+
+ 
